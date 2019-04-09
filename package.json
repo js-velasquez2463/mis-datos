@@ -1,0 +1,39 @@
+{
+  "name": "misdatos",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "local": "NODE_ENV=local nodemon ./bin/www",
+    "staging": "NODE_ENV=staging nodemon ./bin/www",
+    "production": "NODE_ENV=production nodemon ./bin/www",
+    "test": "NODE_ENV=test nyc --reporter=lcov mocha test/test.js --timeout=15000 --exit"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^7.0.0",
+    "express": "~4.16.0",
+    "hbs": "~4.0.1",
+    "http-errors": "~1.6.2",
+    "moment": "^2.24.0",
+    "morgan": "~1.9.0",
+    "mysql2": "^1.6.5",
+    "node-excel-export": "^1.4.4",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "sequelize": "^5.2.12"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "factory-girl": "^5.0.4",
+    "lodash": "^4.17.11",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
+    "pryjs": "^1.0.3",
+    "sequelize-cli": "^5.4.0"
+  }
+}
