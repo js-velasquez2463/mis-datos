@@ -15,6 +15,9 @@ npm install
 ```
 node_modules/.bin/sequelize db:migrate --url 'mysql://<dbUser>:<dbPassword>@<dbUrl>:<dbPort>/mis-datos'
 ```
+<br>
+A default user with email: initial.user@hotmail.com, and password: password is created in the migrations.
+
 ### Local
 Run the project in development environment:
 <br>
