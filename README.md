@@ -30,11 +30,15 @@ npm run staging
 ```
 
 ### Production
+Run the project in production environment:
+<br>
 ```
 npm run production
 ```
 
 ### Testing
+Run the project test cases:
+<br>
 Documentation https://mochajs.org/
 ```
 npm run test
