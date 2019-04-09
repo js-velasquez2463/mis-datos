@@ -37,9 +37,9 @@ npm run production
 ```
 
 ### Testing
-Run the project test cases:
-<br>
 Documentation https://mochajs.org/
+<br>
+Run the project test cases:
 ```
 npm run test
 ```
